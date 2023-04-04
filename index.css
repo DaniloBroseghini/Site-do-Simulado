@@ -25,7 +25,7 @@
     border-radius: 10px;
 }
 
-.textocentro {
+.Textocentro {
     text-align: center;
 }
 
@@ -34,6 +34,11 @@
     border-radius: 10px;
     margin-left: 10px;
 
+
+}
+
+hr {
+    color: black;
 }
 
 body {
