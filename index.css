@@ -1,0 +1,71 @@
+.Imagem {
+    width: 930px;
+    border-radius: 10px;
+}
+
+
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+
+
+}
+
+.Alinhados {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.icone {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.textocentro {
+    text-align: center;
+}
+
+.video {
+    width: 600px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+
+body {
+    background-color: burlywood;
+}
+
+button {
+    background-color: #4CAF50;
+    /* cor de fundo */
+    border: none;
+    /* remover a borda */
+    color: white;
+    /* cor do texto */
+    padding: 12px 24px;
+    /* espaço interno do botão */
+    text-align: center;
+    /* alinhar o texto no centro */
+    text-decoration: none;
+    /* remover o sublinhado do texto */
+    display: inline-block;
+    /* exibir o botão como um bloco de linha */
+    font-size: 16px;
+    /* tamanho da fonte */
+    border-radius: 5px;
+    /* bordas arredondadas */
+    cursor: pointer;
+    /* mudar o cursor ao passar o mouse */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    /* sombra */
+}
+
+button:hover {
+    background-color: #3e8e41;
+    /* cor de fundo quando o mouse passa por cima */
+}
